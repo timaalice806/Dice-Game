@@ -23,7 +23,7 @@ function rollDiePlayers () {
     console.log(players.score)
 }
 function removeLowestScore (players) {
-   Math.min.apply(null, players);
+   console.log(Math.min.apply(null, players));
 }
 console.log(players.score);
 
